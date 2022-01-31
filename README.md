@@ -4,6 +4,7 @@
 ### Dockerfile with zsh&ssh in ubuntu
 ### 우분투에 zsh, ssh를 추가한 도커파일입니다.
 ### 반복된 설치 작업이 번거로워, 제가 쓰려고 만든 파일입니다~! 
+### 도커파일의 코드에 대한 상세한 설명은 [velog](https://velog.io/@dev-jiwonshin/%EB%8F%84%EC%BB%A4%ED%8C%8C%EC%9D%BC-with-sshzsh-in-%EC%9A%B0%EB%B6%84%ED%88%AC)에 적어두었습니다. 
 
 <br>
 <br>
