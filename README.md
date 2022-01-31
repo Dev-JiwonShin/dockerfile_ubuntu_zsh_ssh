@@ -2,7 +2,8 @@
 <br>
 
 ### Dockerfile with zsh&ssh in ubuntu
-### 우분투에서 zsh, ssh를 추가한 도커파일입니다. 아래 명령어를 따라하시면 
+### 우분투에 zsh, ssh를 추가한 도커파일입니다.
+### 반복된 설치 작업이 번거로워, 제가 쓰려고 만든 파일입니다~! 
 
 <br>
 <br>
@@ -17,7 +18,7 @@
 
 cd 
 
-git clone this
+git clone https://github.com/Dev-JiwonShin/dockerfile_ubuntu_zsh_ssh.git
 
 docker create -it -P -p 22:22 --name zsh_ssh_0 ubuntu_dockerfile:1.0
 
@@ -27,17 +28,19 @@ docker exec -it zsh_ssh_0 zsh
 ```
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
 
-## Check your installation?
+## Check your installation
 ```
 # If it doesn't work, you should do install again
 service ssh start
 
 service mysql start
 ```
-
-
-
 
 <br>
 <br>
