@@ -21,7 +21,7 @@ cd
 
 git clone https://github.com/Dev-JiwonShin/dockerfile_ubuntu_zsh_ssh.git
 
-docker build -t ubuntu_dockerfile:1.0
+docker build -t ubuntu_dockerfile:1.0 .
 
 docker create -it -P -p 22:22 -p 3307:3306 --name zsh_ssh_0 devjiwonshin/ubuntu_dockerfile:1.0
 
